@@ -1,0 +1,6 @@
+weights<-c(300,400,600,800,900)
+prices<-c(4000, 5000, 8000, 10000, 14000)
+types<-c("gold", "gems", "silver", "gold", "silver)
+treasure <- data.frame(weights, prices, types)
+treasure[[4]] #dataframe access
+treasure$prices
